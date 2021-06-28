@@ -32,7 +32,7 @@ public class Reinas {
         System.out.println();
     }
 
-    public void Rellenar(int[][] board, int queens, int x, int y) {
+    public void Refill(int[][] board, int queens, int x, int y) {
         if (queens == 8) {
             print(board);
             System.out.println("tablero => " + cant);
