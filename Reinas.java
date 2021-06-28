@@ -1,5 +1,7 @@
 package com.company;
 
+import java.sql.Ref;
+
 public class Reinas {
 
     public int[] movX = {1, 1, 1, -1, -1, -1, 0, 0};
@@ -43,7 +45,7 @@ public class Reinas {
             while (y < 8) {
                 if (check(board, x, y)) {
                     board[x][y] = 1;
-                    Rellenar(board, queens + 1, x, y + 1);
+                    Refill(board, queens + 1, x, y + 1);
                     board[x][y] = 0;
                 }
                 y++;
