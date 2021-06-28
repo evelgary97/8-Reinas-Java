@@ -53,6 +53,5 @@ public class Reinas {
             x++;
             y = 0;
         }
-
     }
 }
